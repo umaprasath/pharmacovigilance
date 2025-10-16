@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: false
+
+openai:
+  api-key: test-key
+  model: gpt-3.5-turbo
+  timeout: 30s
+
+pharmacovigilance:
+  agent:
+    enabled: false
+  mcp:
+    enabled: false
+
+

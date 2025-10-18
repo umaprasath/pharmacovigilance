@@ -8,6 +8,7 @@ com/pharmacovigilance/mcpagent/config/DataInitializer.class
 com/pharmacovigilance/mcpagent/service/DrugService.class
 com/pharmacovigilance/mcpagent/config/AsyncConfig.class
 com/pharmacovigilance/mcpagent/controller/SwaggerDocumentationController.class
+com/pharmacovigilance/mcpagent/service/DocumentParsingService.class
 com/pharmacovigilance/mcpagent/model/AdverseEvent$EventStatus.class
 com/pharmacovigilance/mcpagent/model/FollowUpAction$ActionStatus.class
 com/pharmacovigilance/mcpagent/controller/PatientController.class
@@ -20,6 +21,7 @@ com/pharmacovigilance/mcpagent/service/AdverseEventService.class
 com/pharmacovigilance/mcpagent/model/Patient.class
 com/pharmacovigilance/mcpagent/model/AiAnalysis$AnalysisStatus.class
 com/pharmacovigilance/mcpagent/model/AdverseEvent$CausalityAssessment.class
+com/pharmacovigilance/mcpagent/service/AdverseEventExtractionService.class
 com/pharmacovigilance/mcpagent/agent/PharmacovigilanceAgent.class
 com/pharmacovigilance/mcpagent/model/Drug$DrugStatus.class
 com/pharmacovigilance/mcpagent/service/AiAnalysisService.class
@@ -27,6 +29,7 @@ com/pharmacovigilance/mcpagent/repository/DrugRepository.class
 com/pharmacovigilance/mcpagent/model/AdverseEvent.class
 com/pharmacovigilance/mcpagent/model/AdverseEvent$SeverityLevel.class
 com/pharmacovigilance/mcpagent/service/PatientService.class
+com/pharmacovigilance/mcpagent/service/AdverseEventExtractionService$1.class
 com/pharmacovigilance/mcpagent/model/Drug.class
 com/pharmacovigilance/mcpagent/controller/AdverseEventController.class
 com/pharmacovigilance/mcpagent/mcp/McpController.class

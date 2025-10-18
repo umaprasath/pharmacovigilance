@@ -1,5 +1,12 @@
 package com.pharmacovigilance.mcpagent.mcp;
 
+/**
+ * McpController.java
+ * This class is the controller for the MCP tools.
+ * It is used to execute the MCP tools and return the results.
+ * It is also used to get the available MCP tools and their parameters.
+ * It is also used to get the available MCP tools and their parameters.
+ */
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.media.Content;

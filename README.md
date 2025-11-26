@@ -98,49 +98,17 @@ curl -X POST http://localhost:8080/api/mcp/tools/classify_from_telephony_transcr
 
 For detailed documentation, see [DOCUMENT_CLASSIFICATION_GUIDE.md](DOCUMENT_CLASSIFICATION_GUIDE.md)
 
-## 📋 Project Planning
 
-This project follows a phased approach:
 
-| Phase | Focus | Duration | Status |
-|-------|-------|----------|--------|
-| **Phase 1** | MCP + Email Processing | 4 weeks | ✅ COMPLETED |
-| **Phase 2** | Workflow API + Automation | 3 weeks | 🟡 NEXT |
-| **Phase 3** | Multi-Channel Processing | 4 weeks | ⚪ PLANNED |
-| **Phase 4** | Advanced AI & Analytics | 3 weeks | ⚪ PLANNED |
-| **Phase 5** | Production Deployment | 2 weeks | ⚪ PLANNED |
-
-### Planning Documents
-
-- 📖 **[PROJECT_PLAN.md](PROJECT_PLAN.md)** - Complete 16-week project plan with detailed specs
-- 🗺️ **[ROADMAP.md](ROADMAP.md)** - Visual roadmap with feature timeline
-- 🚀 **[PHASE2_KICKOFF.md](PHASE2_KICKOFF.md)** - Ready-to-start guide for Phase 2
-- 📝 **[PLANNING_SUMMARY.md](PLANNING_SUMMARY.md)** - Quick reference summary
-- 📊 **[IMPLEMENTATION_SUMMARY.md](IMPLEMENTATION_SUMMARY.md)** - Phase 1 technical summary
-- 📘 **[DOCUMENT_CLASSIFICATION_GUIDE.md](DOCUMENT_CLASSIFICATION_GUIDE.md)** - Usage guide
-
-### Presentation Materials
-
-- 🎤 **[PRESENTATION.md](PRESENTATION.md)** - 20-slide presentation deck (ready for PowerPoint/PDF)
-- 📄 **[EXECUTIVE_SUMMARY.md](EXECUTIVE_SUMMARY.md)** - One-page executive summary
-- 🎨 **[PRESENTATION_GUIDE.md](PRESENTATION_GUIDE.md)** - How to convert documents to slides
-- 📇 **[QUICK_REFERENCE.md](QUICK_REFERENCE.md)** - Printable quick reference card
-- 📊 **[PROJECT_TIMELINE.csv](PROJECT_TIMELINE.csv)** - Detailed timeline (60+ tasks, Excel-ready)
-- 🎯 **[MILESTONE_ROADMAP.csv](MILESTONE_ROADMAP.csv)** - High-level milestones (5 phases)
-- 📈 **[EXCEL_TIMELINE_GUIDE.md](EXCEL_TIMELINE_GUIDE.md)** - Create Gantt charts in Excel
-
-### What's Next: Phase 2 - Workflow API
+### Soon: 
 
 Coming in the next 3 weeks:
 - Workflow state machine (NEW → REVIEW → INVESTIGATION → CONFIRMED → CLOSED)
 - Automated event processing on email classification
 - Follow-up action generation
 - Email notifications
-- Scheduled tasks (every 5 min + daily pattern analysis)
-- 8 new REST API endpoints
-- 4 new MCP tools
 
-See [PHASE2_KICKOFF.md](PHASE2_KICKOFF.md) to get started!
+
 
 ## Getting Started
 
@@ -356,10 +324,8 @@ mvn spring-boot:run -Dspring-boot.run.profiles=dev
 4. Add tests for new functionality
 5. Submit a pull request
 
-## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Support
 
-For support and questions, please open an issue in the repository or contact the development team.
+For support and questions, please open an issue in the repository or contact the me.

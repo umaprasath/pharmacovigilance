@@ -2,9 +2,6 @@
 
 A Spring Boot application that integrates Model Context Protocol (MCP) and AI agents for automated pharmacovigilance workflow management. This system provides intelligent analysis of adverse drug events using ChatGPT integration and automated processing workflows.
 
-**Current Status:** ✅ Phase 1 Complete | 🟡 Phase 2 Ready to Start  
-**Project Timeline:** 16 weeks (5 phases)  
-**Completion:** 20% (4 of 16 weeks)
 
 ## Features
 
